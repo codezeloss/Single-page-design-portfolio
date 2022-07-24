@@ -4,16 +4,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 136px;
 
   &__texts {
     margin-bottom: 60px;
   }
 
   &__text {
+    color: $medium-brown-color;
     max-width: 730px;
     font-size: 18px;
     line-height: 28px;
-    color: $medium-brown-color;
   }
 
   &__grid {

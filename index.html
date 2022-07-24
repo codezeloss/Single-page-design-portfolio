@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Single-page-design Portfolio</title>
 
+    <script src="src/js/swiper-bundle.min.js"></script>
     <script defer src="src/js/script.js"></script>
+
+    <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
 
@@ -18,6 +21,7 @@
       </nav>
 
       <main class="main">
+        <!-- HERO SECTION -->
         <section class="hero">
           <div class="hero__texts">
             <h1 class="heading-primary">Design solutions made easy</h1>
@@ -76,6 +80,73 @@
               />
               <p class="hero__grid--text">Motion Graphics</p>
             </div>
+          </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about">
+          <img
+            class="about__img"
+            src="src/assets/image-amy.webp"
+            alt="Amy picture"
+          />
+          <div class="about__texts">
+            <h2 class="heading-secondary">
+              I’m Amy, and I’d love to work on your next project
+            </h2>
+            <p class="about__text">
+              I love working with others to create beautiful design solutions.
+              I’ve designed everything from brand illustrations to complete
+              mobile apps. I’m also handy with a camera!
+            </p>
+            <button class="about__btn" type="button">Free Consultation</button>
+          </div>
+        </section>
+
+        <!-- Slider - WORK SECTION -->
+        <section class="work">
+          <h3 class="heading-teritiary">My Work</h3>
+          <div class="work__slider--container swiper mySwiper">
+            <div class="swiper-wrapper">
+              <img
+                class="work__slider--img swiper-slide"
+                src="src/assets/image-slide-1.jpg"
+                alt=""
+              />
+              <img
+                class="work__slider--img swiper-slide"
+                src="src/assets/image-slide-2.jpg"
+                alt=""
+              />
+              <img
+                class="work__slider--img swiper-slide"
+                src="src/assets/image-slide-3.jpg"
+                alt=""
+              />
+              <img
+                class="work__slider--img swiper-slide"
+                src="src/assets/image-slide-4.jpg"
+                alt=""
+              />
+              <img
+                class="work__slider--img swiper-slide"
+                src="src/assets/image-slide-5.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="work__btns">
+            <img
+              class="work__btns--btn swiper-button-prev"
+              src="src/assets/icon-arrow-left.svg"
+              alt=""
+            />
+            <img
+              class="work__btns--btn swiper-button-next"
+              src="src/assets/icon-arrow-right.svg"
+              alt=""
+            />
           </div>
         </section>
       </main>

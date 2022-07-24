@@ -18,6 +18,8 @@ body {
   font-family: $primary-font, sans-serif;
   color: #000;
   background-color: $light-cream-color;
+
+  overflow-x: hidden;
 }
 
 .container {

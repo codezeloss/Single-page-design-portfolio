@@ -1,0 +1,41 @@
+.work {
+  max-width: 100%;
+  margin-bottom: 88px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // position: absolute;
+
+  &__slider {
+    &--container {
+      max-width: 1440px;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 56px;
+      gap: 30px;
+    }
+
+    &--img {
+      border-radius: 8px;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: relative;
+
+    &--btn {
+      background-color: $black-color;
+      width: 64px;
+      height: 64px;
+      padding: 24px;
+      border-radius: 64px;
+      cursor: pointer;
+    }
+  }
+}

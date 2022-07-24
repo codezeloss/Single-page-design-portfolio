@@ -5,6 +5,19 @@
   font-weight: bold;
   margin-bottom: 23px; }
 
+.heading-secondary {
+  font-family: "Plus Jakarta Sans", sans-serif, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 34px; }
+
+.heading-teritiary {
+  font-family: "Plus Jakarta Sans", sans-serif, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 58px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -21,7 +34,8 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif, sans-serif;
   color: #000;
-  background-color: #fff7f0; }
+  background-color: #fff7f0;
+  overflow-x: hidden; }
 
 .container {
   max-width: 1111px;
@@ -44,6 +58,7 @@ body {
     background-color: #030303;
     font-size: 16px;
     font-weight: bold;
+    width: fit-content;
     padding: 14px 45px;
     border: none;
     border-radius: 28px;
@@ -54,14 +69,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 136px; }
   .hero__texts {
     margin-bottom: 60px; }
   .hero__text {
+    color: #7a746e;
     max-width: 730px;
     font-size: 18px;
-    line-height: 28px;
-    color: #7a746e; }
+    line-height: 28px; }
   .hero__grid {
     display: grid;
     grid-template-columns: repeat(6, 164px);
@@ -104,3 +120,61 @@ body {
       margin-right: auto; }
     .hero__grid--img {
       margin-left: auto; }
+
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 125px;
+  margin-bottom: 88px; }
+  .about__img {
+    width: 445px;
+    height: 445px;
+    filter: contrast(0%); }
+  .about__texts {
+    display: flex;
+    flex-direction: column; }
+  .about__text {
+    color: #7a746e;
+    max-width: 730px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px; }
+  .about__btn {
+    color: #fff7f0;
+    background-color: #eb7565;
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 14px 45px;
+    border: none;
+    border-radius: 28px;
+    line-height: 28px; }
+
+.work {
+  max-width: 100%;
+  margin-bottom: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .work__slider--container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 56px;
+    gap: 30px; }
+  .work__slider--img {
+    border-radius: 8px; }
+  .work__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: relative; }
+    .work__btns--btn {
+      background-color: #030303;
+      width: 64px;
+      height: 64px;
+      padding: 24px;
+      border-radius: 64px;
+      cursor: pointer; }

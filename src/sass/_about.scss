@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 125px;
+  margin-bottom: 88px;
+
+  &__img {
+    width: 445px;
+    height: 445px;
+    filter: contrast(0%);
+  }
+
+  &__texts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    color: $medium-brown-color;
+    max-width: 730px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+
+  &__btn {
+    color: $light-cream-color;
+    background-color: $light-red-color;
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 14px 45px;
+    border: none;
+    border-radius: 28px;
+    line-height: 28px;
+  }
+}
