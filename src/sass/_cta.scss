@@ -1,0 +1,37 @@
+.cta {
+  height: 320px;
+  background-color: $black-color;
+  padding: 65px;
+  padding-right: 95px;
+  border-radius: 10px;
+  margin-bottom: 65px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__h2 {
+    color: $white-color;
+  }
+
+  &__text {
+    width: 540px;
+    color: $light-cream-color;
+    max-width: 730px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &__btn {
+    color: $light-cream-color;
+    background-color: $light-red-color;
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 14px 45px;
+    border: none;
+    border-radius: 28px;
+    line-height: 28px;
+  }
+}
