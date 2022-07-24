@@ -1,0 +1,27 @@
+.navbar {
+  max-width: 1111px;
+  height: 64px;
+  margin-top: 34px;
+  margin-bottom: 66px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  &__btn {
+    color: $light-cream-color;
+    background-color: $black-color;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 45px;
+    border: none;
+    border-radius: 28px;
+    line-height: 28px;
+  }
+}

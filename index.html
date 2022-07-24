@@ -1,45 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single-page-design Portfolio</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single-page design portfolio</title>
-</head>
-<body>
+    <script defer src="src/js/script.js"></script>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
 
-  Free Consultation
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <img class="navbar__logo" src="src/assets/logo.svg" alt="Logo" />
+        <button class="navbar__btn" type="button">Free Consultation</button>
+      </nav>
 
-  Design solutions made easy
+      <main class="main">
+        <section class="hero">
+          <div class="hero__texts">
+            <h1 class="heading-primary">Design solutions made easy</h1>
+            <p class="hero__text">
+              With over ten years of experience in various design disciplines,
+              I’m your one-stop<br />
+              shop for your design needs.
+            </p>
+          </div>
+          <div class="hero__grid">
+            <div class="hero__grid--1 hero__grid--card">
+              <img
+                class="hero__grid--img"
+                src="src/assets/pattern-graphic-design.svg"
+                alt=""
+              />
+              <p class="hero__grid--text">Graphic Design</p>
+            </div>
+            <div class="hero__grid--2 hero__grid--card">
+              <img
+                class="hero__grid--img"
+                src="src/assets/pattern-ui-ux.svg"
+                alt=""
+              />
+              <p class="hero__grid--text">UI/UX</p>
+            </div>
+            <div class="hero__grid--3 hero__grid--card">
+              <img
+                class="hero__grid--img"
+                src="src/assets/pattern-apps.svg"
+                alt=""
+              />
+              <p class="hero__grid--text">Apps</p>
+            </div>
+            <div class="hero__grid--4 hero__grid--card">
+              <img
+                class="hero__grid--img"
+                src="src/assets/pattern-photography.svg"
+                alt=""
+              />
+              <p class="hero__grid--text">Photography</p>
+            </div>
+            <div class="hero__grid--5 hero__grid--card">
+              <img
+                class="hero__grid--img"
+                src="src/assets/pattern-illustrations.svg"
+                alt=""
+              />
+              <p class="hero__grid--text">Illustration</p>
+            </div>
+            <div class="hero__grid--6 hero__grid--card">
+              <img
+                class="hero__grid--img"
+                src="src/assets/pattern-motion-graphics.svg"
+                alt=""
+              />
+              <p class="hero__grid--text">Motion Graphics</p>
+            </div>
+          </div>
+        </section>
+      </main>
 
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
-
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
-
-  I’m Amy, and I’d love to work on your next project
-
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
-
-  My Work
-
-  Book a call with me
-
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
-
-  Free Consultation
-
-  Free Consultation
-
-</body>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
