@@ -11,7 +11,7 @@
   font-weight: bold;
   margin-bottom: 34px; }
 
-.heading-teritiary {
+.heading-tertiary {
   font-family: "Plus Jakarta Sans", sans-serif, sans-serif;
   font-size: 32px;
   text-align: center;
@@ -248,3 +248,63 @@ body {
   .footer__btn:hover, .footer__btn:visited {
     background-color: #755cde;
     color: #ffff; }
+
+@media only screen and (max-width: 1150px) {
+  .heading-primary {
+    font-size: 44px; }
+  .heading-secondary {
+    font-size: 32px; }
+  .heading-tertiary {
+    font-size: 32px; }
+  .navbar {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto; }
+  .hero {
+    padding: 0 1.8rem; }
+    .hero__text {
+      max-width: 550px; }
+    .hero__grid {
+      max-width: 750px;
+      display: grid;
+      grid-template-columns: repeat(4, 164px);
+      grid-template-rows: repeat(3, 182px); }
+      .hero__grid--1 {
+        grid-column: 1/3;
+        grid-row: 1/3; }
+      .hero__grid--2 {
+        grid-column: 3/4;
+        grid-row: 1/2; }
+      .hero__grid--3 {
+        grid-column: 4/5;
+        grid-row: 1/2; }
+      .hero__grid--4 {
+        grid-column: 1/3;
+        grid-row: 3/4; }
+      .hero__grid--5 {
+        grid-column: 3/5;
+        grid-row: 2/3; }
+      .hero__grid--6 {
+        grid-column: 3/5;
+        grid-row: 3/4; }
+  .about {
+    justify-content: center;
+    gap: 69px; }
+    .about__img {
+      margin-left: -10rem; }
+    .about__texts {
+      max-width: 350px; }
+  .cta {
+    max-width: 750px;
+    height: auto;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 75px 56px; }
+    .cta__text {
+      margin-bottom: 26px; }
+  .footer {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto; } }
