@@ -386,6 +386,9 @@ body {
       line-height: 26px; }
   .about {
     margin-bottom: 100px; }
+    .about__img {
+      width: 345px;
+      height: 345px; }
     .about__texts {
       max-width: 343px; }
     .about__text {
@@ -419,7 +422,9 @@ body {
 
 @media only screen and (max-width: 460px) {
   .work__slider--container {
-    max-width: 1040px; } }
+    max-width: 100%; }
+  .work__slider--img {
+    width: 100%; } }
 
 @media only screen and (max-width: 426px) {
   .cta__text {

@@ -226,6 +226,11 @@
   .about {
     margin-bottom: 100px;
 
+    &__img {
+      width: 345px;
+      height: 345px;
+    }
+
     &__texts {
       max-width: 343px;
     }
@@ -284,7 +289,12 @@
   .work {
     &__slider {
       &--container {
-        max-width: 1040px;
+        // max-width: 1040px;
+        max-width: 100%;
+      }
+
+      &--img {
+        width: 100%;
       }
     }
   }
