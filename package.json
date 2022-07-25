@@ -2,9 +2,9 @@
   "name": "single-page-design-portfolio",
   "version": "1.0.0",
   "description": "![Design preview for the Single-page design portfolio coding challenge](./preview.jpg)",
-  "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass src/sass/style.scss src/css/style.css -w"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/elosscode/Single-page-design-portfolio#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "parcel": "^2.6.2"
   },
   "dependencies": {
     "@splidejs/splide": "^4.0.7",
